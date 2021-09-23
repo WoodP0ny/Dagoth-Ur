@@ -1,0 +1,28 @@
+body{
+    background-color: gray;
+}
+
+h1{
+    font-size: 50px;
+    color:  #7c00ff;
+}
+h2{
+    color:yellow;
+    font-size: 50px;
+}
+p{
+    color:seagreen;
+    font-size: 1000px;
+}
+.big{
+    font-size: 80px;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.big.uppercase{
+    color:tomato;
+}
+span{
+    color:palevioletred;
+}
