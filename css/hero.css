@@ -1,0 +1,74 @@
+body{
+    margin: 0; 
+    background-image: url('https://i.ytimg.com/vi/JUN5MTlqYVU/maxresdefault.jpg');
+    background-size: contain;
+    font-family: Planewalker;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+@font-face{
+    font-family: "Planewalker";
+    src:url("Planewalker.otf")
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+header h1{
+    color: white;
+}
+
+header img{
+    border-radius: 190px;
+    width: 350px;
+    border: 10px solid #7E653D;
+}
+
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    text-align: center;
+
+}
+
+main img{
+    max-width: 100%; 
+}
+
+h2{
+    font-size: 35px;
+    color: #e70c19;
+    margin: 40px 0 10px; 
+}
+
+a{
+    color: #e70c19;
+}
+a:hover{
+    color: #483a94;
+}
+
+footer{
+    background-color:rgba(0, 0, 0, 0.8);
+    text-align: center;
+    color:white;
+    padding: 50px;
+}
+footer p{
+    margin: 0;
+}
+footer a{
+    color: white;
+}
+
+p.caption{
+    color: #555555;
+    font-style: italic;
+    margin-top: 0;
+}
