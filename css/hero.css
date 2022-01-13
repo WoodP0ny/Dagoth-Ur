@@ -1,15 +1,17 @@
 body{
     margin: 0; 
-    background-image: url('https://i.ytimg.com/vi/JUN5MTlqYVU/maxresdefault.jpg');
+    background-image: url('/img/tx_sky_cloudy.png');
     background-size: contain;
     font-family: Planewalker;
     font-size: 20px;
     line-height: 30px;
+    border: 10px solid #7E653D;
+    cursor: url('/cursor/cursor.cur'), default;
 }
 
 @font-face{
     font-family: "Planewalker";
-    src:url("Planewalker.otf")
+    src:url("/fonts/Planewalker.otf")
 }
 
 header{
@@ -20,7 +22,7 @@ header{
 }
 
 header h1{
-    color: white;
+    color: #D2C5A3;
 }
 
 header img{
@@ -30,28 +32,51 @@ header img{
 }
 
 main{
+    background-color: rgba(0, 0, 0, 0.8);
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px 20px;
-    text-align: center;
+    padding: 20px 555px;
+    text-align: left;
 
 }
 
 main img{
-    max-width: 100%; 
+    margin: 350px 90px 0px;
+    max-width: 75%; 
+    max-height: auto;
+}
+
+main p{
+    color: #A38964;
+}
+
+main a{
+    text-decoration: none;
 }
 
 h2{
     font-size: 35px;
-    color: #e70c19;
+    color: #D2C5A3;
     margin: 40px 0 10px; 
+    text-align: center;
+}
+
+ol{
+    color: #A38964;
+    padding-left: 15px;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0px;
 }
 
 a{
-    color: #e70c19;
+    color: #A38964;
 }
 a:hover{
-    color: #483a94;
+    color: #D2C5A3;
+    cursor: url(/cursor/cursor.cur), default;
 }
 
 footer{
@@ -71,4 +96,20 @@ p.caption{
     color: #555555;
     font-style: italic;
     margin-top: 0;
+    margin-left: 90px;
+}
+
+img.mark{
+    max-width: 100px;
+    max-height: auto;
+    float: right;
+    transform: rotate(45deg);
+    margin: 0;
+}
+
+img.dreamer{
+    max-width: 400px;
+    max-height: auto;
+    float: left;
+    margin-left: -500px;
 }
